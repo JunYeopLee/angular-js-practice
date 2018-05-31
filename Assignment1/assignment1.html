@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="assignment1App">
+  <head>
+    <meta charset="utf-8"><meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="assignment1.js"></script>
+    <title>Assginment1</title>
+  </head>
+  <body>
+    <h1>Assginment1</h1>
+    <div ng-controller="InputTextContorller">
+      <input type='text' ng-model="input_text"> <button ng-click="checkIfTooMuch();">Check If Too Much</button>
+      <br>{{message}}
+    </div>
+  </body>
+</html>
